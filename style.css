@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Red Hat Display',sans-serif;
+    background: url(./images/pattern-background-desktop.svg) hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    width: 1440px;
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    width:360px;
+    height: 550px;
+    background: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 176px 374px;
+}
+.image img{
+    width: 360px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+.sub-content{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    padding:0 30px 30px;
+}
+.summary{
+    margin-top: 10px;
+    color:  hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.description{
+    font-weight: 500;
+    font-size: 16px;
+    color:  hsl(224, 23%, 55%);
+    text-align: center;
+}
+.payement{
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    background: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-bottom: 10px;
+}
+.payement a{
+    color: hsl(245, 75%, 52%);
+    font-size: 16px;
+}
+.payement a:hover{
+    color:  hsl(224, 76%, 48%);
+}
+.small{
+    display: flex;
+    align-items: center;
+}
+.small img{
+    margin-right: 10px;
+}
+.plan{
+    color:  hsl(223, 47%, 23%);
+    font-weight: 800;
+    font-size: 16px;
+}
+.price{
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 50%;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn1{
+    width: auto;
+    height: 40px;
+    border-radius: 10px;
+    background-color:  hsl(245, 75%, 52%);
+    border: none;
+    margin-top: 7px;
+    color: #fff;
+    box-shadow:0 10px 10px  hsl(220, 11%, 85%);
+}
+.btn2{
+    background: #fff;
+    border: none;
+    margin-top: 20px;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+    opacity: 0.7;
+}
+
